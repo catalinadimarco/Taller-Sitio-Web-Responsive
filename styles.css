@@ -1,0 +1,77 @@
+.custom-navbar {
+    background-color: #686d78; /* Color de fondo del navbar */ 
+}
+
+h1 {
+    font-size: 2rem; /* Título más grande */
+    margin-top: 40px; 
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px; 
+    max-width: 1500px;
+    height: 100%;
+    width: 930px;
+}
+
+.custom-section {
+    max-height: 5000px;
+    height: 376px;
+}
+
+.container-titles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row {
+    background-color: #f4f4f5c1;
+}
+
+.offset-left {
+    margin-left: 25%; /* Ajusta el porcentaje según sea necesario */
+}
+
+.custom-row {
+    width: 100%; /* Asegúrate de que la fila use el 100% del ancho disponible */
+    margin-left: 15%; /* Desplaza hacia la derecha un 15% */
+}
+
+.bg-white {
+    background-color: white; /* Asegura que la columna vacía sea blanca */
+}
+
+.list-group {
+    max-width: 400px;
+    width: 350px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.carousel {
+    max-width: 550px;
+}
+
+.dropdown {
+    display: none; /* Ocultar por defecto */
+}
+
+.navbar-collapse.show .dropdown {
+    display: block; /* Mostrar cuando el menú está expandido */
+}
